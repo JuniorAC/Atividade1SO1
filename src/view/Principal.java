@@ -9,7 +9,7 @@ public class Principal {
 	
 	public static void main(String[] args) {
 		RedesController redesC = new RedesController();
-		String os = System.getProperty("os.name");
+		String os = System.getProperty("os.name");//pega SO utilizado
 		int op=0;
 		
 		while(op!=99){

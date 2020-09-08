@@ -13,7 +13,7 @@ public class RedesController {
 	
 	public void ip(String os) {
 		String testeIp = " "; 
-		
+		//escoher comando para qual SO esta usando 
 		 if (os.contains("Windows")) {
 			  testeIp = "ipconfig";
 		  }
@@ -46,7 +46,7 @@ public class RedesController {
 	
 	public void ping(String os) {
 		String ping = " "; 
-		
+		//escoher comando para qual SO esta usando 
 		 if (os.contains("Windows")) {
 			  ping = "PING -t10 www.google.com.br";
 		  }
