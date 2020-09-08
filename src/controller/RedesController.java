@@ -51,7 +51,7 @@ public class RedesController {
 			  ping = "PING -t10 www.google.com.br";
 		  }
 		  else if (os.contains("Linux")) {
-			  ping = "ipconfig";
+			  ping = "Ping google.com.br";
 		  }
 	    try {
 			Process ip = Runtime.getRuntime().exec(ping);
